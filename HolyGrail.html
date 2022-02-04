@@ -111,22 +111,22 @@
 
     <header>There is no positioning applied to the header so it uses the default, static positioning.</header>
 
-    <nav></nav>
+    <nav>The positioning for this one is "fixed" which will position the element relative the viewers screen. This means it will stay in the same spot regardless of where on the page the user is looking which has been decided using the top and left positioning values. No matter if I scroll all the way to bottom or top, left or right, and wherever else it will stay fixed up at the top of the page for me to see. This is why its so useful for things like navigation bars.</nav>
 
     <div>
 
         <div class="articles">
 
-            <article></article>
+            <article>The positioning for this one is relative which is similar to absolute, except that it keeps it within the normal document flow. In this case the article section has been placed 15 pixels from the top (the header) relative to the normal document flow of the container its within.</article>
 
-            <article></article>
+            <article>The articles section itself, which contains to articles, is positioned to be 30px from the left and 45x from the top relative to what came before it.</article>
 
         </div>
 
-    <aside></aside>
+    <aside>The positioning for this one is absolute which ignores the normal document flow. In this case the aside is positioned to be 50% from the left, 10% from the right, and 235px from the top of the default starting positiong ignoring all the elements that have been placed in the document before it. This is useful for placing an element exactly where you want it without regard for anything else that might influence its positioning in the document.</aside>
 
     </div>
 
-    <footer></footer>
+    <footer>Like the navigation bar this positioning is fixed, except this time its fixed to the very bottom of the screen since its the footer. Like a navigation bar you would always want the footer to be visible at the bottom of the viewer's screen regardless of where on the page you are.</footer>
 </body>
 </html>
